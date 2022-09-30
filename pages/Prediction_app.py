@@ -135,7 +135,7 @@ def app():
     st.subheader('색상 배합 최적화 모델')
     st.write('')
 
-    df = pd.read_csv('train.csv')
+    df = pd.read_csv('./train.CSV')
     model = models3
     scaler = scaler3
         
