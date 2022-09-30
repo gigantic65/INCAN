@@ -274,7 +274,7 @@ def app():
     color_list = ['SK1','SK2','SB1','SB2','SG1','SY1','SY2','SY3','SO1','SP1','SV1','SR1','SR2','SR3']
     color_list = pd.DataFrame(color_list,columns=['color'])
     
-    DT = pd.read_csv('train.csv')
+    DT = pd.read_csv('./train.CSV')
 
     count = 0
     
