@@ -901,7 +901,7 @@ def app():
                 
                 random.seed(42)
                 para7 = []
-                for i in range(3000):
+                for i in range(2000):
                     para5 = []
                     for col in New_x2.columns:
                         New_x2[col] = 0.0
@@ -924,7 +924,7 @@ def app():
                 
                 para71 = []
                 random.seed(42)
-                for i in range(3000):
+                for i in range(2000):
                     para5 = []
                     for col in New_x2.columns:
                         New_x2[col] = 0.0
@@ -947,7 +947,7 @@ def app():
                 
                 para72 = []
                 random.seed(42)
-                for i in range(3000):
+                for i in range(2000):
                     para5 = []
                     for col in New_x2.columns:
                         New_x2[col] = 0.0
